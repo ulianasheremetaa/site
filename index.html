@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
-
+		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 		body{ 
-			font-family: system-ui; 
+			font-family: "Bebas Neue", sans-serif;
 			background-color: midnightblue;
 			background: linear-gradient(in oklch,midnightblue, rgb(0, 0, 0));
 			color: bisque;
@@ -21,11 +21,54 @@
 		}
 		h1 { font-size: 15vw;}
 		h2 { font-size: 15vw;}
+		p {font-size: 12vw;}
 
+		 h1 {
+  transition: 0.3s;
+}
+h1:hover {
+  color: #7ed6ff;
+  transform: scale(1.1) rotate(-2deg);
+}
+
+h2 {
+  transition: 0.3s;
+}
+h2:hover {
+  color: #7eadff;
+  transform: scale(1.1) rotate(2deg);
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1b205f;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.1);}
+  100% { transform: scale(1);}
+}
 	</style>
 </head>
 <body>
 	<h1>Uliana</h1>
-	<h2>york</h2>
+	<h2>the best interactive media designer in the world</h2>
+	<p> <a href="https://www.instagram.com/ulx.ua/"> instagram</a></p>
+
+<!-- ID450 WebRing -->
+<link  rel="stylesheet" href="https://code.eracom-pedagogique.ch/id450webring/webring.css">
+<div id="id450webring">
+ <a href="https:// ... previous ..."><span>prev</span></a>
+ <a href="https://code.eracom-pedagogique.ch/id450webring/">ID450 WebRing</a>
+ <a href="https:// ... next ... "><span>next</span></a>
+</div>
+<!-- ID450 WebRing -->
+
 </body>
 </html>
